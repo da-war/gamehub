@@ -1,10 +1,13 @@
-import React from "react";
-import Form from "./Form";
+import React from 'react'
 
-export default function App() {
+import { Button } from '@chakra-ui/react'
+
+function App() {
   return (
     <div>
-      <Form />
+      <Button colorScheme='blue'>Button</Button>
     </div>
-  );
+  )
 }
+
+export default App
